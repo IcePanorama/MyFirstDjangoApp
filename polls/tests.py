@@ -9,7 +9,7 @@ from .models import Question
 
 def create_question(question_text, days):
     """
-    Crete a question w/ the given `question_text` and published
+    Create a question w/ the given `question_text` and published
     the given number of `days` offset to now (negative for
     questions published in the past, positive for questions
     that have yet to be published).
